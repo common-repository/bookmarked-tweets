@@ -1,0 +1,87 @@
+#data-table tr.edited {
+	border: 1px solid #ddd;
+}
+#data-table tr.edited td.edited {
+	border: 1px solid #00f;
+}
+
+ul.bookmark_tweets {
+    background-color: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 5px;
+    float: left;
+    font-size: 12px;
+    list-style-type: none;
+	 margin: 0;
+    padding: 0;
+}
+.bookmark_tweets > li {
+    border-bottom: 1px solid #e1e8ed;
+    float: left;
+    padding: 10px 15px;
+    width: 100%;
+	position: relative;
+}
+.bookmark_tweets li .tweet_link_url {
+    bottom: 0;
+    box-shadow: none;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    top: 0;
+	border: medium none;
+}
+.bookmark_tweets > li a {
+    border: medium none;
+    text-decoration: none !important;
+}
+.bookmark_tweets > li:last-child {
+    border-bottom: none;
+}
+.bookmark_tweets > li:hover {
+	background-color:#F5F8FA;
+}
+.bookmark_tweets > li.bt_first_li:hover {
+	background:none;
+}
+.bookmark_tweets > li.bt_last_li:hover {
+	background:none;
+}
+.bookmark_tweets button {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding: 0;
+	color: #000;
+    font-size: 12px;
+}
+.bookmark_tweets .fa {
+    color: #000;
+	font-size: initial;
+}
+.bookmark_tweets button.btn-retweet, .bookmark_tweets button.btn-retweet i {
+    color: green;
+}
+.bookmark_tweets button.btn-fevorite, .bookmark_tweets button.btn-fevorite i {
+    color: red;
+}
+.bookmark_tweets .row {
+    clear: both;
+    display: block;
+}
+.bookmark_tweets .col-md-1
+{
+	width: 8.33333%;
+	float: left;
+}
+.bookmark_tweets .col-md-2
+{
+	width: 16.6667%;
+	width: 10.6667%;
+	float: left;
+}
+.bookmark_tweets .col-md-10
+{
+	width: 83.3333%;
+	width: 89.3333%;
+	float: left;
+}
